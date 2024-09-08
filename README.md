@@ -1,15 +1,17 @@
 steps to run this project
-**_ 1 - open the folder in terminal _**
-**_2 - run docker-compose_**
+1 - open the folder in terminal
+
+2 - run docker-compose
 
 ```bash
 docker-compose up
 ```
 
-**_3 - go to localhost:5050 and create a new db called postgres_**
-**_! - it will run fine since i will be including .env files on my repo_**
+3 - go to localhost:5050 and create a new db called postgres
 
-**_4 - run server and create db tables_**
+! - it will run fine since i will be including .env files on my repo
+
+4 - run server and create db tables
 
 ```bash
 cd server
@@ -18,7 +20,7 @@ npx prisma db push
 npm run dev
 ```
 
-**_5 - run client_**
+5 - run client
 
 ```bash
 cd client
@@ -26,7 +28,7 @@ npm install
 npm run dev
 ```
 
-**_6 - optional - seed db_**
+6 - optional - seed db
 
 ```bash
 cd server
