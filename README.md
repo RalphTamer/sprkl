@@ -1,4 +1,5 @@
 steps to run this project
+
 1 - open the folder in terminal
 
 2 - run docker-compose
